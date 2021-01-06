@@ -14,8 +14,12 @@ body {
 /* All Heading and Paragraph Styles */
 h1,
 h2,
-li {
+a {
   color: #363958;
+}
+
+a:hover {
+  color: rgba(54, 57, 88, 0.7);
 }
 
 h1 {
@@ -92,6 +96,7 @@ li {
   padding: 2.1%;
   background-color: white;
   border-radius: 20px;
+  box-shadow: 30px 30px 5px 15px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .common-box img {
