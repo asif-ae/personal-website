@@ -158,6 +158,10 @@ li {
 }
 
 /* Footer Section Styles */
+footer {
+  padding: 40px 0;
+}
+
 footer p,
 footer h2 {
   margin: 0;
